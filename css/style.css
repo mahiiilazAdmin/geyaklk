@@ -1,0 +1,351 @@
+.test{
+    background-color: aqua;
+    height: 300px;
+}
+.test2{
+    background-color: rgb(17, 85, 85);
+    height: 300px;
+}
+.bg-black{
+    background-color: #000000;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+body{
+    background-color: #E7EDEE;
+}
+#brando {
+    font-family: "montserrat-extrabold", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    /* padding: 0px 0px 0px 5px; */
+    margin: 0%;
+    height: 0;
+    color: #D86411;
+}
+ 
+.nopad{
+    padding: 0%;
+    overflow: hidden;
+    /* height: 50px; */
+}
+
+.lrpads{
+    padding-left:0px;
+    padding-right: 0px; 
+}
+.nolpad{
+    padding-left: 0px;
+}
+.norpad{
+    padding-right: 0px;
+}
+.marg-topbot{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.nav-b{
+    height: 50px;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+}
+
+/* Z */
+/*search box css start here*/
+
+.searchbox{
+    background-color: #55595c;
+    margin-top: 2rem;
+}
+.search-sec{
+    padding: 2rem;
+    
+}
+
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+
+
+
+/* Property Card Styling */
+.pcard{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px 15px 15px;
+    /* box-shadow: 2px 2px 1px grey; */
+}
+.bshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.filcol{
+    background-color: #333;
+}
+
+.card-header{
+    background-color: #000000;
+    color: #ccc;
+    padding-left: 10px;
+}
+
+
+.card-title{
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 18px;
+}
+.card-title:hover{
+  color: #D86411 !important;
+}
+
+
+.card-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.card-body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Property Image */
+.img-col{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+}
+.prop-img{
+    /* width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+/* Text Field in the card */
+.mob-fon-con{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.post-featured{
+    color: gold;
+    font-weight: 5;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.promo{
+  /* font-size: 11px; */
+  background-color: black;
+  padding: 0px;
+}
+
+
+/* Footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/* Property Card */
+.prop-footer{
+  background-color: #26272b;
+  padding: 3px;
+}
+.propmo{
+  font-size: 10px;
+  /* color: #00aced; */
+  color: darkgoldenrod;
+}
+.promo{
+  color: darkgoldenrod;
+  /* font-size: 10px; */
+  margin-right: 5px;
+}

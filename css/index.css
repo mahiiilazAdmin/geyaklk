@@ -1,0 +1,13 @@
+.panel-txtbox{
+    width: 50px;
+}
+.fil-tag{
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-filbar{
+    margin-left: 15px;
+}
+.prop-id{
+    padding-right: 5px !important;
+}

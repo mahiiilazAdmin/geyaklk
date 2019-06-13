@@ -1,0 +1,207 @@
+/* Only for Screen with the below size or bigger [Desktop obv.] */
+@media screen and (min-width: 992px){
+    .search-sec{
+        padding-left: 155px;
+        padding-bottom: 2rem;
+        padding-top: 2rem;       
+    }
+    
+    .mo-nolpad{
+        padding-left: 0px;
+    }
+    .des-hide{
+        display: none;
+    }
+    .mob-fon-con{
+        font-size: 15px;
+        padding-top: 8px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+    }
+    .d-none{
+        padding-bottom: 0px;
+        height: 145px;
+    }
+    .prop-img{
+        height: 100px;
+        width: 145px;
+        /* margin-right: 10px; */
+    }
+
+    .dt-norpad{
+        padding-right:0px;
+    }
+    .dt-nolpad{
+        padding-left: 0px;
+    }
+    .promo{
+        margin-top: 4px !important;
+    }
+}
+
+/* Only for Screen with the below size or smaller [Mobile obv.] */
+@media screen and (max-width: 328px){
+    .card-title{
+        font-size: 70%;
+    }
+    .mo-inpu-space{
+        padding: 0.5rem;
+    }
+    .prop-img{
+        /* width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px; */
+    
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        padding: 3px;
+        width: 100px;
+        height: 80px;
+    }
+    .img-col{
+        padding: 2px;
+    }
+    .mob-fon-con{
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 0px;
+        height: 90px;
+    }
+    .mob-pad-set{
+        padding: 5px;
+    }
+    .mob-hide{
+        display: none;
+    }
+    .mo-no-pad{
+        padding: 0px;
+    }
+
+    /* Signup Input boxes */
+    .mob-wid{
+        width: 70% !important; 
+    }
+
+    /* Banner */
+    .ho-ban{
+        padding-top: 10px;
+    }
+
+}
+
+/* Index Property card Font sizes */
+@media screen and (max-width: 320px){
+    .prop-img{
+        /* width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px; */
+    
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        padding: 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .img-col{
+        padding: 2px;
+    }
+    .mob-fon-con{
+        font-size: 10px;
+        padding-left: 55px;
+        padding-right: 0px;
+        height: 90px;
+    }
+    .mob-pad-set{
+        padding: 5px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Large Phones */
+@media screen and (min-width: 200px) and (max-width: 998px){
+    .mob-hide{
+        display: none;
+    }
+    .mo-no-pad{
+        padding: 0px;
+    }
+    .promo{
+        font-size: 10px;
+        background-color: black;
+        padding: 0.5px;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 400px){
+    .mob-fon-con{
+        /* color: #82C9F5; */
+        padding-left: 40px;
+        padding-top: 9px;
+    }
+    .promo{
+        font-size: 11px;
+        background-color: black;
+        padding: 1px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px){
+    .mob-fon-con{
+        /* color: yellow; */
+        padding-left: 30px;
+        padding-top: 9px;
+    }
+    .promo{
+        font-size: 12px;
+        background-color: black;
+        padding: 1px;
+    }
+}
+/* }--------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Index Property card Font sizes
+@media screen and (max-width: 425px){
+    .mob-fon-con{
+        font-size: 15px;
+        padding-left: 40px;
+        padding-right: 0px;
+        height: 90px;
+    }
+} */
+
+/* Trigger(Filteration) button for the Mobile view */
+.triggerBut{
+    background-color: #82C9F5;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+.triggerBut:hover{
+    background-color: rgb(73, 175, 238);
+}
+.btn-cancel{
+    margin-top: 5px;
+}
+.btn-cancel:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+/* Filter panel Design */
+.filter-pad{
+    padding-top: 0;
+
+}
+.filter-head{
+    padding-left: 15px;
+    padding-top: 5px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head-filt{
+    margin-top: 2px;
+}
